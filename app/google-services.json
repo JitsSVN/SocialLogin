@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "365036488773",
+    "firebase_url": "https://logindemo-8c02c.firebaseio.com",
+    "project_id": "logindemo-8c02c",
+    "storage_bucket": "logindemo-8c02c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365036488773:android:e100f437b7029f42",
+        "android_client_info": {
+          "package_name": "app.com.facebooklogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365036488773-0kkogt3hri91l31q6o281dio35s5to47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.com.facebooklogin",
+            "certificate_hash": "cffd2d0e81e5641aa9f66a1be8af6512bee8a88d"
+          }
+        },
+        {
+          "client_id": "365036488773-ggpdo6l7jp332m7im01f85m37esbmnvd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "365036488773-ggpdo6l7jp332m7im01f85m37esbmnvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChXvhk-pQmmIk90FT9ydEf1EzzznCtEuQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365036488773-ggpdo6l7jp332m7im01f85m37esbmnvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365036488773:android:c2e0443877ede102",
+        "android_client_info": {
+          "package_name": "md.app.com.demologinmvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365036488773-4o6g9iios2pgf24ospqu2ie2e8691e3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "md.app.com.demologinmvvm",
+            "certificate_hash": "cffd2d0e81e5641aa9f66a1be8af6512bee8a88d"
+          }
+        },
+        {
+          "client_id": "365036488773-ggpdo6l7jp332m7im01f85m37esbmnvd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "365036488773-ggpdo6l7jp332m7im01f85m37esbmnvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChXvhk-pQmmIk90FT9ydEf1EzzznCtEuQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365036488773-ggpdo6l7jp332m7im01f85m37esbmnvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

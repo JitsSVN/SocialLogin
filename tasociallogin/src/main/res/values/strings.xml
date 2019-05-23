@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TAFacebookLogin</string>
+    <string name="application_id_cant_be_null">applicationID can\'t be null</string>
+    <string name="please_check">Please check https://developers.facebook.com/docs/android/getting-started/</string>
+    <string name="sign_in_fail">SignIn fail please try again</string>
+    <string name="initislise_firebase">Please Initialise Firebase</string>
+</resources>

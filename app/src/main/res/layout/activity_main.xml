@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="handler"
+            type="app.com.facebooklogin.LoginApiHandler" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_fb_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:gravity="center"
+            android:onClick="@{handler::onFbLoginClick}"
+            android:padding="10dp"
+            android:text="Facebook Login"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/tv_google_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_fb_login"
+            android:layout_marginTop="10dp"
+            android:background="#000000"
+            android:gravity="center"
+            android:onClick="@{handler::onGoogleLoginClick}"
+            android:padding="10dp"
+            android:text="Google Login"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_twitter_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_google_login"
+            android:layout_marginTop="10dp"
+            android:background="#000000"
+            android:gravity="center"
+            android:onClick="@{handler::onTwitterLoginClick}"
+            android:padding="10dp"
+            android:text="Twitter Login"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+
+        <ImageView
+            android:id="@+id/iv_dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/tv_twitter_login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_dp"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:id="@+id/tv_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#000000"
+            android:gravity="center"
+            android:onClick="@{handler::onLogout}"
+            android:padding="10dp"
+            android:text="Logout"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</layout>
